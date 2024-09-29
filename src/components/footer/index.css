@@ -1,0 +1,73 @@
+.footer{
+    background-color: var(--secondary-black);
+    color: var(--white);
+    min-height: 480px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 280px;
+}
+.footer-wrapper > div{
+    width: 33.333333333333333333%;
+    border-right: .01px var(--white) solid;
+    border-bottom: .01px var(--white) solid;
+}
+.img-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-holder > img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.footer-links{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-links > p{
+    text-align: center;
+}
+.footer-links > div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-links > div:nth-child(3){
+    margin-top: 20px;
+}
+
+.getInTouch > p{
+    text-align: center;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20%
+}
+.copyright{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.page-links > p{
+    min-height: 40px;
+    text-align: center;
+    width: max-content;
+    padding: 7.5px 10px 7.5px 10px;
+    border-radius: 5px;
+}
+
+.page-links > p:hover{
+    background-color: var(--white);
+    color: var(--secondary-black);
+    cursor: pointer;
+}
