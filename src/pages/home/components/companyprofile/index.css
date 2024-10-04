@@ -1,0 +1,112 @@
+.companyprofilesection {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 1050px;
+}
+.companyprofilesection > .responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.company-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+}
+.company-details > div:nth-child(2) {
+  width: 40%;
+}
+
+.secondary-button {
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  border: 1px var(--primary-orange) solid;
+  opacity: 0px;
+  color: var(--primary-orange);
+  background-color: #00000080;
+}
+.secondary-button:hover {
+  background-color: var(--primary-orange);
+  color: var(--primary-black);
+}
+.company-button {
+  background-color: var(--white);
+}
+.company-button:hover{
+  color: var(--primary-black);
+  background-color: var(--white);
+}
+
+.tech-holder {
+  display: flex;
+  flex-direction: column;
+}
+.tech-holder > p {
+  width: 50%;
+}
+.tech-holder > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.services {
+  width: 33.3333%;
+}
+.services > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: #00000080;
+}
+.services > div > div {
+  height: 240px;
+  color: var(--white);
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tech-holder > div > .services {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  border: 2px var(--primary-orange) solid;
+}
+.tech-holder > div > .services:nth-child(1) {
+  background-image: url("../../../../assets//images/portharcourt.jfif");
+  border-right: 1px var(--primary-orange) solid;
+}
+.tech-holder > div > .services:nth-child(2) {
+  background-image: url("../../../../assets//images/oil_pipline.jfif");
+  border-left: 1px var(--primary-orange) solid;
+  border-right: 1px var(--primary-orange) solid;
+}
+.tech-holder > div > .services:nth-child(3) {
+  background-image: url("../../../../assets//images/future_oil_gas.jfif");
+  border-left: 1px var(--primary-orange) solid;
+}
+.serve > p:nth-child(1) {
+  height: 70px;
+}
+.serve-background {
+  background-color: var(--white);
+}
+.serve-background p{
+  color: var(--primary-black);
+}
+.serve:hover{
+  cursor: pointer;
+}
+.serve-background button{
+  background-color: var(--white);
+}

@@ -1,0 +1,40 @@
+.whychooseussection {
+    background-color: #242020;
+    color: var(--white);
+    min-height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.insight-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.insight{
+    width: 33.3333%;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    align-items: center;
+    height: 250px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.insight:hover{
+    background-color: var(--white);
+    color: var(--primary-black);
+    cursor: pointer;
+}
+.insight img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.insight-holder > div:nth-child(1){
+    border-right: 1px var(--primary-orange) solid;
+}
+.insight-holder > div:nth-child(3){
+    border-left: 1px var(--primary-orange) solid;
+}

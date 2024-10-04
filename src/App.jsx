@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 import Home from "./pages/home";
@@ -7,12 +6,12 @@ import AboutUs from "./pages/about";
 import ContactUs from "./pages/contactus";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
+import './fonts.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <BrowserRouter>

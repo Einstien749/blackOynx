@@ -1,55 +1,99 @@
 :root {
-  font-family: Poppins, sans-serif;
-  font-weight: 400;
+  font-family: Poppins;
+  font-weight: 600;
   --black: #00000080;
   --blue: #1e90ff;
   --primary-black: #242020;
   --secondary-black: #272323;
-  --white: #F7F9FB;
-  --primary-orange: #FFC60B;
-
+  --white: #f7f9fb;
+  --primary-orange: #ffc60b;
 }
 
-body{
+body {
   font-family: Poppins;
 }
+.primary-button {
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  border: 1px var(--primary-orange) solid;
+  opacity: 0px;
+  color: var(--primary-orange);
+  background-color: var(--primary-black);
+}
+.primary-button:hover {
+  background-color: var(--primary-orange);
+  color: var(--primary-black);
+}
 
-.responsive{
+.light{
+  font-weight: 300;
+}
+.normal{
+  font-weight: 400; 
+}
+.normal-1{
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 600;
+}
+.extra-bold{
+  font-weight: 700;
+}
+.big-bold{
+  font-weight: 800;
+}
+.font-medium{
+  font-size: 24px;
+}
+.font-more-medium{
+  font-size: 32px;
+}
+.font-large{
+  font-size: 48px;
+}
+.font-extralarge{
+  font-size: 52px;
+}
+
+.responsive {
   width: 96%;
   margin-left: 2%;
 }
 
-
-@media  screen and (min-width:992px) {
-  .responsive{
+@media screen and (min-width: 992px) {
+  .responsive {
     width: 960px;
     margin-left: calc(50% - 480px);
   }
 }
 
-@media  screen and (min-width:1200px) {
-  .responsive{
+@media screen and (min-width: 1200px) {
+  .responsive {
     width: 1180px;
     margin-left: calc(50% - 590px);
   }
 }
 
-@media  screen and (min-width:1400px) {
-  .responsive{
+@media screen and (min-width: 1400px) {
+  .responsive {
     width: 1350px;
     margin-left: calc(50% - 675px);
   }
 }
 
-@media  screen and (min-width:1600px) {
-  .responsive{
+@media screen and (min-width: 1600px) {
+  .responsive {
     width: 1550px;
     margin-left: calc(50% - 775px);
   }
 }
 
-@media  screen and (min-width:1800px) {
-  .responsive{
+@media screen and (min-width: 1800px) {
+  .responsive {
     width: 1750px;
     margin-left: calc(50% - 875px);
   }

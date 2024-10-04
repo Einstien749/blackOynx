@@ -1,0 +1,59 @@
+.contactuspage {
+    background-color: var(--white);
+    min-height: 880px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactuspage > .responsive{
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-holder{
+    height: 700px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 100px 100px 300px 100px;
+    grid-row-gap: 25px;
+    grid-column-gap: 10%;
+    width: 60%;
+}
+.contactuspage > .responsive  > p{
+    width: 40%;
+}
+.form-holder > input{
+    border: 1px var(--secondary-black) solid;
+    border-top: 0px;
+    background-color: var(--white);
+    outline: 0px;
+    caret-color: var(--primary-black);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+}
+.form-holder > button{
+    font-size: 30px;
+    border: 0px;
+    background-color: var(--secondary-black);
+    color: var(--white);
+}
+.form-holder > button:hover{
+    background-color: var(--white);
+    color: var(--primary-black);
+}
+
+.form-holder > textarea{
+    grid-row: 3/4;
+    grid-column: 1/3;
+    background-color: var(--white);
+    border: 1px var(--secondary-black) solid;
+    border-top: 0px;
+    outline: 0px;
+    caret-color: var(--primary-black);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 300;
+}

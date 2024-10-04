@@ -1,0 +1,48 @@
+.headers {
+  min-height: 530px;
+  background-color: var(--primary-black);
+  background-image: url("../../../../assets//images/oil_and_gas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headers > div {
+  background-color: #00000080;
+  height: 530px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headers  .responsive {
+    color: var(--white);
+    height: 70%;
+}
+.headers .responsive > div > button:nth-child(1){
+  background-color: var(--primary-orange);
+  color: var(--primary-black);
+  border: 0px;
+}
+
+.headers button{
+  font-weight: 600;
+}
+.headers .responsive > div > button:hover{
+  background-color: var(--white);
+}
+.headers .responsive > div {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.headers .responsive > p:nth-child(1){
+  width: 90%;
+}
+
+.headers .responsive > p:nth-child(2){
+  width: 70%;
+  font-size: 28px;
+}

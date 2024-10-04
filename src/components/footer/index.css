@@ -4,6 +4,7 @@
     min-height: 480px;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family: Poppins;
 }
 
 .footer-wrapper{
@@ -33,6 +34,8 @@
 }
 .footer-links > p{
     text-align: center;
+    font-weight: 500;
+    font-family: Poppins;
 }
 .footer-links > div:nth-child(2){
     display: flex;
@@ -45,6 +48,7 @@
 
 .getInTouch > p{
     text-align: center;
+    font-weight: 500;
 }
 .socials{
     display: flex;
@@ -64,10 +68,14 @@
     width: max-content;
     padding: 7.5px 10px 7.5px 10px;
     border-radius: 5px;
+    font-weight: 400;
 }
 
 .page-links > p:hover{
     background-color: var(--white);
     color: var(--secondary-black);
     cursor: pointer;
+}
+.footer-links > div:nth-child(3){
+    padding: 0px 10px 0px 10px;   
 }

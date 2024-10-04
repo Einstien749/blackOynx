@@ -1,0 +1,51 @@
+.overview{
+    min-height: 700px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+}
+.overview > .responsive{
+    background-color: var(--white);
+}
+.overview > .responsive > div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+}
+
+.overview > .responsive > div:nth-child(1) > div:nth-child(1){
+    height: auto;
+    width: 40%;
+    display: block;
+}
+
+.overview > .responsive > div:nth-child(1) > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 24px;
+    width: 60%;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.overview > .responsive > div:nth-child(1) > div:nth-child(1) > img{
+    min-height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.overview > .responsive > div:nth-child(2){
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+.overview .primary-button{
+    background-color: var(--primary-orange);
+    border: 0px;
+    color: var(--primary-black);
+}
+
+.overview .primary-button:hover{
+    background-color: var(--white);
+}
