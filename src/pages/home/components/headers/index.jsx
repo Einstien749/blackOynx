@@ -1,6 +1,12 @@
 import "./index.css";
+import { useNavigate } from "react-router-dom";
 
 const HeaderSection = () => {
+  const navigate = useNavigate()
+
+  const goToPage = (path) => {
+    navigate(path)
+  }
   return (
     <div className="headers">
       <div className="">
@@ -14,8 +20,8 @@ const HeaderSection = () => {
             team delivers Innovative, Value Adding solutions.
           </p>
           <div>
-            <button className="secondary-button">Learn more</button>
-            <button className="secondary-button">About us</button>
+            <button className="secondary-button" onClick={() => goToPage("/services")}>Learn more</button>
+            <button className="secondary-button" onClick={() => goToPage("/aboutus")}>About us</button>
           </div>
         </div>
       </div>

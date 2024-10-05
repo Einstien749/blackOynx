@@ -1,7 +1,12 @@
 import AboutImage from "../../../../assets/images/aboutImage.svg"
 import "./index.css"
+import { useNavigate } from "react-router-dom";
 
 const OverviewSection = () => {
+  const navigate = useNavigate()
+  const goToPage = (path) => {
+    navigate(path)
+  }
   return (
     <div className="overview">
       <div className="responsive">
@@ -40,7 +45,7 @@ const OverviewSection = () => {
           </div>
         </div>
         <div>
-          <button className="primary-button bold">Contact us</button>
+          <button className="primary-button bold" onClick={() => goToPage("/contactus")}>Contact us</button>
         </div>
       </div>
     </div>

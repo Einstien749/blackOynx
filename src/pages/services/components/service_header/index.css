@@ -1,0 +1,18 @@
+.service_header {
+  min-height: 600px;
+  background-color: var(--primary-black);
+  background-image: url("../../../../assets//images/services.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: var(--white);
+}
+
+.service_header > div {
+  background-color: #00000080;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
