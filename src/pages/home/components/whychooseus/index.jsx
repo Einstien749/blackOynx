@@ -1,7 +1,7 @@
 import "./index.css";
-import ExperienceImage from "../../../../assets/images/customer_Insight.svg";
-import CoreImage from "../../../../assets/images/customer_Insight_1.svg";
-import CommitmentImage from "../../../../assets/images/customer_insight_2.svg";
+import ExperienceImage from "../../../../assets/images/customerInsight.svg";
+import CoreImage from "../../../../assets/images/customerInsight1.svg";
+import CommitmentImage from "../../../../assets/images/customerInsight2.svg";
 
 function WhyChooseUsSection() {
     
