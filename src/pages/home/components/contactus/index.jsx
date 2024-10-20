@@ -4,7 +4,7 @@ function ContactUsSection() {
   return (
     <div className="contactussection">
       <div className="responsive">
-        <p className="bold font-large">Contact Us</p>
+        <h2 className="bold font-large">Contact Us</h2>
         <div className="input-holder">
           <input type="text" placeholder="Name"/>
           <input type="email" placeholder="Email"/>

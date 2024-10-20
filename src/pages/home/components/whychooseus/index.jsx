@@ -21,7 +21,7 @@ function WhyChooseUsSection() {
   return (
     <div className="whychooseussection">
       <div className="responsive">
-        <p className="bold font-large">Why Choose Us</p>
+        <h2 className="bold font-large">Why Choose Us</h2>
         <div className="insight-holder">
           {data.map((item) =>{
             return (

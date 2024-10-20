@@ -1,37 +1,82 @@
 .contactussection {
     background-color: var(--white);
-    min-height: 320px;
+    min-height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+.contactussection > .responsive{
+    min-height: 90%;
+}
 .input-holder{
-    height: 100px;
+    height: 300px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .input-holder > input{
-    height: 100%;
-    width: 24.5%;
+    height: 60px;
+    width: 100%;
     border: 1px var(--secondary-black) solid;
     border-top: 0px;
     background-color: var(--white);
     outline: 0px;
     caret-color: var(--primary-black);
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-weight: 300;
+    font-size: 14px;
 }
 .input-holder > button{
-    width: 24.5%;
+    width: 100%;
     font-size: 30px;
     border: 0px;
     background-color: var(--secondary-black);
     color: var(--white);
+    height: 60px;
+    font-size: 14px;
 }
 .input-holder > button:hover{
     background-color: var(--white);
     color: var(--primary-black);
+}
+
+@media screen and (min-width: 992px) {
+    .contactussection {
+        background-color: var(--white);
+        min-height: 320px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .input-holder{
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .input-holder > input{
+        height: 100%;
+        width: 24.5%;
+        border: 1px var(--secondary-black) solid;
+        border-top: 0px;
+        background-color: var(--white);
+        outline: 0px;
+        caret-color: var(--primary-black);
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .input-holder > button{
+        width: 24.5%;
+        font-size: 30px;
+        border: 0px;
+        background-color: var(--secondary-black);
+        color: var(--white);
+        height: 100%;
+    }
 }

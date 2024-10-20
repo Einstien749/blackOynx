@@ -45,10 +45,9 @@ function CompanyProfileSection() {
       <div className="responsive">
         <div className="company-details">
           <div>
-            <p className="bold font-large">
-              Company's
-              <br /> Profile
-            </p>
+            <h2 className="bold font-large">
+              Company's Profile
+            </h2>
           </div>
           <div>
             <p>

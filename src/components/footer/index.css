@@ -1,81 +1,183 @@
-.footer{
-    background-color: var(--secondary-black);
-    color: var(--white);
+.footer {
+  background-color: var(--secondary-black);
+  color: var(--white);
+  min-height: 900px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Poppins;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 800px;
+}
+.footer-wrapper > div {
+  width: 99%;
+  border-right: 0.01px var(--white) solid;
+  border-bottom: 0.01px var(--white) solid;
+  height: 300px;
+}
+.img-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.img-holder > img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.footer-links {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.footer-links > p {
+  text-align: center;
+  font-weight: 500;
+  font-family: Poppins;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer-links > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-links > div:nth-child(3) {
+  margin-top: 20px;
+}
+
+.getInTouch > p {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+.copyright {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.page-links > p {
+  min-height: 40px;
+  text-align: center;
+  width: max-content;
+  padding: 7.5px 10px 7.5px 10px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.page-links > p:hover {
+  background-color: var(--white);
+  color: var(--secondary-black);
+  cursor: pointer;
+}
+.footer-links > div:nth-child(3) {
+  padding: 0px 10px 0px 10px;
+}
+@media screen and (max-width: 400px) {
+  .page-links {
+    width: 100%;
+  }
+  .footer-links {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer {
     min-height: 480px;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-family: Poppins;
-}
-
-.footer-wrapper{
+  }
+  .footer-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     min-height: 280px;
-}
-.footer-wrapper > div{
+  }
+  .footer-wrapper > div {
     width: 33.333333333333333333%;
-    border-right: .01px var(--white) solid;
-    border-bottom: .01px var(--white) solid;
-}
-.img-holder{
+    border-right: 0.01px var(--white) solid;
+    border-bottom: 0.01px var(--white) solid;
+  }
+  .img-holder {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.img-holder > img{
+  }
+  .img-holder > img {
     width: 100px;
     height: 100px;
     object-fit: contain;
-}
-.footer-links{
+  }
+  .footer-links {
     padding-left: 10px;
     padding-right: 10px;
-}
-.footer-links > p{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .footer-links > p {
     text-align: center;
     font-weight: 500;
     font-family: Poppins;
-}
-.footer-links > div:nth-child(2){
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .footer-links > div:nth-child(2) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.footer-links > div:nth-child(3){
+  }
+  .footer-links > div:nth-child(3) {
     margin-top: 20px;
-}
+  }
 
-.getInTouch > p{
+  .getInTouch > p {
     text-align: center;
     font-weight: 500;
-}
-.socials{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .socials {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 60%;
-    margin-left: 20%
-}
-.copyright{
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+  .copyright {
     margin-top: 40px;
     margin-bottom: 10px;
-}
+  }
 
-.page-links > p{
+  .page-links > p {
     min-height: 40px;
     text-align: center;
     width: max-content;
     padding: 7.5px 10px 7.5px 10px;
     border-radius: 5px;
     font-weight: 400;
-}
+  }
 
-.page-links > p:hover{
+  .page-links > p:hover {
     background-color: var(--white);
     color: var(--secondary-black);
     cursor: pointer;
-}
-.footer-links > div:nth-child(3){
-    padding: 0px 10px 0px 10px;   
+  }
+  .footer-links > div:nth-child(3) {
+    padding: 0px 10px 0px 10px;
+  }
 }

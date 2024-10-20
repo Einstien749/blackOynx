@@ -6,11 +6,17 @@ const PartnersSection = () => {
     <div className="partnersection">
       <div className="responsive">
         <div className="partner-holder">
-          <p className="bold font-large">Our Strategic Partners</p>
+          <h2 className="bold font-large">Our Strategic Partners</h2>
           <div>
-            <img src={Logo} />
-            <img src={Logo} />
-            <img src={Logo} />
+            <div>
+              <img src={Logo} />
+              <img src={Logo} />
+              <img src={Logo} />
+            </div>
+            <div>
+              <img src={Logo} />
+              <img src={Logo} />
+            </div>
           </div>
         </div>
       </div>

@@ -1,26 +1,30 @@
 .whychooseussection {
     background-color: #242020;
     color: var(--white);
-    min-height: 450px;
+    min-height: 770px;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.whychooseussection h2{
+    padding-top: 5px;
 }
 .insight-holder{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    min-height: 620px;
 }
 .insight{
-    width: 33.3333%;
+    width: 100%;
     display: grid;
     grid-template-columns: 35% 60%;
     align-items: center;
-    height: 250px;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    height: 210px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .insight:hover{
     background-color: var(--white);
@@ -28,13 +32,53 @@
     cursor: pointer;
 }
 .insight img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     object-fit: contain;
 }
 .insight-holder > div:nth-child(1){
-    border-right: 1px var(--primary-orange) solid;
+    border-bottom: 1px var(--primary-orange) solid;
 }
-.insight-holder > div:nth-child(3){
-    border-left: 1px var(--primary-orange) solid;
+.insight-holder > div:nth-child(2){
+    border-bottom: 1px var(--primary-orange) solid;
+}
+@media screen and (min-width: 992px) {
+    .whychooseussection {
+        min-height: 450px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .insight-holder{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 280px;
+        margin-top: 40px;
+    }
+    .insight{
+        width: 33.3333%;
+        display: grid;
+        grid-template-columns: 35% 62%;
+        align-items: center;
+        height: 250px;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+    .insight img{
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .insight-holder > div:nth-child(1){
+        border-right: 1px var(--primary-orange) solid;
+        border-bottom: 0px;
+    }
+    .insight-holder > div:nth-child(3){
+        border-left: 1px var(--primary-orange) solid;
+    }
+    .insight-holder > div:nth-child(2){
+        border-bottom: 0px;
+    }
 }

@@ -15,7 +15,7 @@ const OverviewSection = () => {
             <img src={AboutImage} />
           </div>
           <div>
-            <p className="bold font-large">Company's Overview</p>
+            <h2 className="bold font-large">Company's Overview</h2>
             <p>
               BLACK ONYX ENERGY & RESOURCES delivers technical support and
               consultancy services to the energy, power, manufacturing, and

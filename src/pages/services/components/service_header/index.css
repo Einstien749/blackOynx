@@ -16,3 +16,28 @@
   flex-direction: column;
   justify-content: center;
 }
+.service_header h1 {
+  width: 100%;
+  line-height: 45px;
+}
+
+@media screen and (min-width: 992px) {
+
+  .service_header {
+    min-height: 600px;
+  }
+  
+  .service_header > div {
+    background-color: #00000080;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .service_header h1 {
+    width: 90%;
+    line-height: 65px;
+    font-size: 48px;
+  }
+}
