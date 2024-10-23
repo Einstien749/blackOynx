@@ -46,7 +46,7 @@ function CompanyProfileSection() {
         <div className="company-details">
           <div>
             <h2 className="bold font-large">
-              Company's Profile
+              Company Profile
             </h2>
           </div>
           <div>
@@ -63,17 +63,17 @@ function CompanyProfileSection() {
           </div>
         </div>
         <div className="tech-holder">
-          <p className="normal-1">
+          <h4 className="normal-1 font-merge">
             Our focused areas are Engineering & Project Advisory, Technical
             Consultant Sourcing, and Industry 4.0 (Digital Twin)
-          </p>
+          </h4>
           <div>
             {data.map((item, index) => {
               return (
                 <div className="services" onMouseEnter={() => handleMouseEnter(index)} onMouseLeave={() => handleMouseLeave()}>
                   <div>
                     <div className={!hover[index] ? "serve" : "serve serve-background"}>
-                      <p className="normal-1 font-medium">{item.header}</p>
+                      <h4 className="normal-1 font-merge">{item.header}</h4>
                       <p>{item.body}</p>
                       <button className="secondary-button bold">
                         Learn more

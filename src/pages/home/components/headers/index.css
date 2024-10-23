@@ -1,7 +1,7 @@
 .headers {
   min-height: 700px;
   background-color: var(--primary-black);
-  background-image: url("../../../../assets//images/oil_and_gas.png");
+  background-image: url("../../../../assets//images/oil-and-gas-feature-04.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -25,6 +25,7 @@
 }
 .headers .responsive > div > button:nth-child(2){
   margin-left: 10px;
+  background-color: #00000000;
 }
 
 .headers button{
@@ -41,10 +42,9 @@
 
 .headers .responsive > h1:nth-child(1){
   width: 100%;
-  line-height: 45px;
 }
 
-.headers .responsive > h2:nth-child(2){
+.headers .responsive > p:nth-child(2){
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -64,16 +64,14 @@
 
 @media screen and (min-width: 992px) {
   .headers {
-    min-height: 530px;
+    min-height: 550px !important;
     background-color: var(--primary-black);
-    background-image: url("../../../../assets//images/oil_and_gas.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
   }
   
   .headers > div {
     background-color: #00000080;
-    height: 530px;
+    min-height: 550px !important;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -105,15 +103,14 @@
   }
   
   .headers .responsive > h1:nth-child(1){
-    width: 90%;
-    line-height: 65px;
-    font-size: 48px;
+    width: 100%;
   }
   
-  .headers .responsive > h2:nth-child(2){
+  .headers .responsive > p:nth-child(2){
     width: 70%;
     font-size: 28px;
     line-height: 42px;
+    font-weight: 500;
   }
   
 }

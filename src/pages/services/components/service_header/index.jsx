@@ -10,7 +10,7 @@ const Service_Header = () => {
     <div className="service_header">
       <div>
         <div className="responsive">
-          <h1 className="font-large big-bold head">
+          <h1 className="big-bold head">
             Our focused areas are Engineering & Project Advisory, Technical
             Consultant Sourcing, and Industry 4.0 (Digital Twin)
           </h1>

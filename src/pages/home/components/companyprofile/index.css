@@ -9,12 +9,22 @@
 .company-details {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   min-height: 250px;
   margin-bottom: 20px;
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
 }
 .company-details > div:nth-child(2) {
+  width: 100%;
+}
+.company-details > div:nth-child(2) > p {
+  font-size: 8px;
+  font-weight: 300;
+  line-height: 12px;
+}
+.tech-holder > h4 {
   width: 100%;
 }
 
@@ -23,7 +33,7 @@
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 10px;
   border: 1px var(--primary-orange) solid;
   opacity: 0px;
   color: var(--primary-orange);
@@ -36,7 +46,7 @@
 .company-button {
   background-color: var(--white);
 }
-.company-button:hover{
+.company-button:hover {
   color: var(--primary-black);
   background-color: var(--white);
 }
@@ -82,7 +92,7 @@
   border: 2px var(--primary-orange) solid;
 }
 .tech-holder > div > .services:nth-child(1) {
-  background-image: url("../../../../assets//images/portharcourt.jfif");
+  background-image: url("../../../../assets//images/port-harcourt-refinery.jpg");
   border-right: 1px var(--primary-orange) solid;
 }
 .tech-holder > div > .services:nth-child(2) {
@@ -91,29 +101,35 @@
   border-right: 1px var(--primary-orange) solid;
 }
 .tech-holder > div > .services:nth-child(3) {
-  background-image: url("../../../../assets//images/future_oil_gas.jfif");
+  background-image: url("../../../../assets//images/FutureofOilandGas.jpg");
   border-left: 1px var(--primary-orange) solid;
 }
-.serve > p:nth-child(1) {
+.serve > h4:nth-child(1) {
   height: 70px;
 }
 .serve-background {
   background-color: var(--white);
 }
-.serve-background p{
+.serve-background p,
+.serve-background h4 {
   color: var(--primary-black);
 }
-.serve:hover{
+.serve:hover {
   cursor: pointer;
 }
-.serve-background button{
+.serve-background button {
   background-color: var(--white);
 }
-.company-details > div:nth-child(1){
+.company-details > div:nth-child(1) {
   width: 100%;
 }
-.company-details > div:nth-child(2) > p{
+.company-details > div:nth-child(2) > p {
   text-align: justify;
+}
+.serve > p:nth-child(2) {
+  font-size: 8px;
+  font-weight: 300;
+  line-height: 12px;
 }
 
 @media screen and (min-width: 992px) {
@@ -122,7 +138,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    min-height: 1050px;
+    min-height: 1100px;
   }
   .companyprofilesection > .responsive {
     display: flex;
@@ -135,14 +151,22 @@
     justify-content: space-between;
     align-items: center;
     height: 400px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .company-details > div:nth-child(2) {
     width: 45%;
   }
+  .company-details > div:nth-child(2) > p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
   .company-details > div:nth-child(1) {
     width: 55%;
   }
-  
+
   .secondary-button {
     height: 60px;
     padding-left: 20px;
@@ -160,18 +184,22 @@
   }
   .company-button {
     background-color: var(--white);
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-  .company-button:hover{
+  .company-button:hover {
     color: var(--primary-black);
     background-color: var(--white);
   }
-  
+
   .tech-holder {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 650px;
   }
-  .tech-holder > p {
-    width: 50%;
+  .tech-holder > h4 {
+    width: 80%;
   }
   .tech-holder > div {
     display: flex;
@@ -179,7 +207,7 @@
     justify-content: space-between;
     min-height: 500px;
   }
-  
+
   .services {
     width: 33.3333%;
   }
@@ -188,7 +216,7 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    background-color: #00000080;
+    background-color: #00000099;
   }
   .services > div > div {
     min-height: 240px;
@@ -204,6 +232,7 @@
     background-size: 100% 100%;
     object-fit: contain;
     border: 2px var(--primary-orange) solid;
+    opacity: #00000080;
   }
   .tech-holder > div > .services:nth-child(1) {
     background-image: url("../../../../assets//images/portharcourt.jfif");
@@ -218,19 +247,23 @@
     background-image: url("../../../../assets//images/future_oil_gas.jfif");
     border-left: 1px var(--primary-orange) solid;
   }
-  .serve > p:nth-child(1) {
+  .serve > h4:nth-child(1) {
     height: 70px;
   }
   .serve-background {
     background-color: var(--white);
   }
-  .serve-background p{
+  .serve-background p {
     color: var(--primary-black);
   }
-  .serve:hover{
+  .serve:hover {
     cursor: pointer;
   }
-  .serve-background button{
+  .serve-background button {
     background-color: var(--white);
-  } 
+  }
+  .serve > p:nth-child(2) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

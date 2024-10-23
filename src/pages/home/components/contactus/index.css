@@ -24,8 +24,7 @@
     background-color: var(--white);
     outline: 0px;
     caret-color: var(--primary-black);
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 8px 16px 8px 16px;
     font-weight: 300;
     font-size: 14px;
 }
@@ -36,7 +35,8 @@
     background-color: var(--secondary-black);
     color: var(--white);
     height: 60px;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 18px;
 }
 .input-holder > button:hover{
     background-color: var(--white);
@@ -66,14 +66,15 @@
         background-color: var(--white);
         outline: 0px;
         caret-color: var(--primary-black);
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 8px 16px 8px 16px;
         font-weight: 300;
         font-size: 16px;
+        line-height: 24px;
     }
     .input-holder > button{
         width: 24.5%;
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 30px;
         border: 0px;
         background-color: var(--secondary-black);
         color: var(--white);

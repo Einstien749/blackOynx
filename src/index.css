@@ -28,36 +28,44 @@ body {
   color: var(--primary-black);
 }
 
-.light{
+.light {
   font-weight: 300;
 }
-.normal{
-  font-weight: 400; 
+.normal {
+  font-weight: 400;
 }
-.normal-1{
+.normal-1 {
   font-weight: 500;
 }
 
 .bold {
   font-weight: 600;
 }
-.extra-bold{
+.extra-bold {
   font-weight: 700;
 }
-.big-bold{
-  font-weight: 800;
+.big-bold {
+  font-weight: 600;
 }
-.font-medium{
+.font-medium {
   font-size: 16px;
 }
-.font-more-medium{
-  font-size: 20px;
+.font-more-medium {
+  font-size: 12px;
+  line-height: 18px;
 }
-.font-large{
-  font-size: 36px;
+.font-merge {
+  font-size: 12px;
+  line-height: 18px;
 }
-.font-extralarge{
-  font-size: 40px;
+.font-large {
+  font-size: 14px;
+  line-height: 21px;
+}
+.font-extralarge {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .responsive {
@@ -66,11 +74,9 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-
   .primary-button {
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 64px;
+    padding: 20px 28px 20px 28px;
     border-radius: 30px;
     border: 1px var(--primary-orange) solid;
     opacity: 0px;
@@ -82,39 +88,48 @@ body {
     background-color: var(--primary-orange);
     color: var(--primary-black);
   }
-  
-  .light{
+
+  .light {
     font-weight: 300;
   }
-  .normal{
-    font-weight: 400; 
+  .normal {
+    font-weight: 400;
   }
-  .normal-1{
+  .normal-1 {
     font-weight: 500;
   }
-  
+
   .bold {
     font-weight: 600;
   }
-  .extra-bold{
+  .extra-bold {
     font-weight: 700;
   }
-  .big-bold{
+  .big-bold {
     font-weight: 800;
   }
-  .font-medium{
+  .font-medium {
     font-size: 24px;
+    font-family: Poppins;
+    line-height: 36px;
   }
-  .font-more-medium{
+  .font-more-medium {
     font-size: 32px;
+    line-height: 48px;
   }
-  .font-large{
+  .font-merge {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .font-large {
     font-size: 48px;
+    line-height: 72px;
   }
-  .font-extralarge{
+  .font-extralarge {
     font-size: 52px;
+    line-height: 78px;
   }
-  
+
   .responsive {
     width: 960px;
     margin-left: calc(50% - 480px);

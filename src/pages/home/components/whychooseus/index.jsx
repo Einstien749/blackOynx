@@ -27,7 +27,7 @@ function WhyChooseUsSection() {
             return (
                 <div className="insight">
                     <div><img src={item.image} /></div>
-                    <div><p className="bold font-more-medium">{item.header}</p><p>{item.body}</p></div>
+                    <div><h3 className="bold font-more-medium">{item.header}</h3><p>{item.body}</p></div>
                 </div>
             )
           })}

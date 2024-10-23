@@ -25,8 +25,8 @@
   justify-content: center;
 }
 .img-holder > img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
 }
 .footer-links {
@@ -39,11 +39,14 @@
   font-family: Poppins;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 18px;
 }
 .footer-links > div:nth-child(2) {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 .footer-links > div:nth-child(3) {
   margin-top: 20px;
@@ -53,6 +56,8 @@
   text-align: center;
   font-weight: 500;
   margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
   margin-bottom: 10px;
 }
 .socials {
@@ -66,6 +71,16 @@
 .copyright {
   margin-top: 40px;
   margin-bottom: 10px;
+  font-size: 8px;
+  line-height: 12px;
+  opacity: 0.8;
+}
+
+.page-links {
+  padding: 0px 20px 0px 20px;
+  gap: 0px;
+  opacity: 0px;
+  width: 100%;
 }
 
 .page-links > p {
@@ -74,7 +89,9 @@
   width: max-content;
   padding: 7.5px 10px 7.5px 10px;
   border-radius: 5px;
-  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 300;
 }
 
 .page-links > p:hover {
@@ -83,11 +100,23 @@
   cursor: pointer;
 }
 .footer-links > div:nth-child(3) {
-  padding: 0px 10px 0px 10px;
+  gap: 16px;
+  opacity: 0.8;
+}
+.footer-links > div:nth-child(3) > p {
+  padding: 16px 20px 16px 20px;
+  font-size: 8px;
+  line-height: 12px;
+}
+.socials img{
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
 }
 @media screen and (max-width: 400px) {
   .page-links {
     width: 100%;
+    padding: 0px 10px 0px 10px;
   }
   .footer-links {
     padding-left: 0px;
@@ -97,7 +126,7 @@
 
 @media screen and (min-width: 992px) {
   .footer {
-    min-height: 480px;
+    min-height: 500px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -105,7 +134,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 280px;
+    min-height: 300px;
   }
   .footer-wrapper > div {
     width: 33.333333333333333333%;
@@ -134,6 +163,7 @@
     font-family: Poppins;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 24px;
   }
   .footer-links > div:nth-child(2) {
     display: flex;
@@ -149,6 +179,8 @@
     font-weight: 500;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 24px;
+    line-height: 36px;
   }
   .socials {
     display: flex;
@@ -161,15 +193,25 @@
   .copyright {
     margin-top: 40px;
     margin-bottom: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0.8;
   }
-
+  .page-links {
+    padding: 0px 20px 0px 20px;
+    margin-top: 20px;
+  }
   .page-links > p {
     min-height: 40px;
     text-align: center;
     width: max-content;
-    padding: 7.5px 10px 7.5px 10px;
     border-radius: 5px;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
   }
 
   .page-links > p:hover {
@@ -178,6 +220,18 @@
     cursor: pointer;
   }
   .footer-links > div:nth-child(3) {
-    padding: 0px 10px 0px 10px;
+    padding: 16px 20px 16px 20px;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #efefef;
+    margin-top: 0px;
+  }
+  .footer-links > div:nth-child(3) > p {
+    padding: 0px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }

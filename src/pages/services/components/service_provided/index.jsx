@@ -8,7 +8,7 @@ const Provided_Services = () => {
         <div className="services_holder">
           <div className="serv">
             <div>
-              <p className="font-medium bold">
+              <p className="font-medium normal-1">
                 Engineering & Project Support Services & Advisory
               </p>
               <p>
@@ -31,7 +31,7 @@ const Provided_Services = () => {
 
           <div className="serv">
             <div>
-              <p className="font-medium bold">
+              <p className="font-medium normal-1">
                 Industry 4.0 (DIGITAL TWIN FOR ASSET INTEGRITY MANAGEMENT)
               </p>
               <p>
@@ -68,7 +68,7 @@ const Provided_Services = () => {
 
           <div className="serv">
             <div>
-              <p className="font-medium bold">
+              <p className="font-medium normal-1">
                 Technical Consultant Sourcing
               </p>
               <p>
