@@ -1,4 +1,6 @@
 import OilPipeline from "../../../../assets/images/oil.jfif";
+import PorthacourtRefinery from "../../../../assets/images/port-harcourt-refinery.jpg";
+import FutureOil from "../../../../assets/images/future_oil_gas.jfif";
 import "./index.css";
 
 const Provided_Services = () => {
@@ -8,16 +10,14 @@ const Provided_Services = () => {
         <div className="services_holder">
           <div className="serv">
             <div>
-              <p className="font-medium normal-1">
+              <h4 className="font-merge normal-1">
                 Engineering & Project Support Services & Advisory
-              </p>
+              </h4>
               <p>
                 Our services include Project Engineering Support, Field
-                Development support, Engineering Design and Reviews.
-              </p>
-              <p>
-                We engage expertise of multi-discipline professionals with local
-                and international consulting engineering experience to offer
+                Development support, Engineering Design and Reviews. We engage
+                expertise of multi-discipline professionals with local and
+                international consulting engineering experience to offer
                 high-end services to the energy and industrial markets in
                 Nigeria and with numerous successes accredited to our team
                 members with experience, expertise and character to support all
@@ -25,15 +25,15 @@ const Provided_Services = () => {
               </p>
             </div>
             <div>
-              <img src={OilPipeline} />
+              <img src={PorthacourtRefinery} />
             </div>
           </div>
 
           <div className="serv">
             <div>
-              <p className="font-medium normal-1">
+              <h4 className="font-merge normal-1">
                 Industry 4.0 (DIGITAL TWIN FOR ASSET INTEGRITY MANAGEMENT)
-              </p>
+              </h4>
               <p>
                 Digital Twin is a key technology for Vidya Software. All the
                 process and data from the real object is directly linked with
@@ -62,15 +62,15 @@ const Provided_Services = () => {
               </p>
             </div>
             <div>
-              <img src={OilPipeline} />
+              <img src={FutureOil} />
             </div>
           </div>
 
           <div className="serv">
             <div>
-              <p className="font-medium normal-1">
+              <h4 className="font-merge normal-1">
                 Technical Consultant Sourcing
-              </p>
+              </h4>
               <p>
                 Black Onyx has experience in the sourcing of highly experienced
                 technical professional consultants in the energy and power

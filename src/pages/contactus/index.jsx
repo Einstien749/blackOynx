@@ -4,7 +4,7 @@ function ContactUs() {
   return (
     <div className="contactuspage">
       <div className="responsive">
-        <p className="bold font-large">Get in touch</p>
+        <h2 className="bold font-large">Get in touch</h2>
         <div className="form-holder">
           <input type="text" placeholder="Surname" />
           <input type="text" placeholder="Firstname" />

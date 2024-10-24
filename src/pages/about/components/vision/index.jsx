@@ -19,7 +19,7 @@ const VisionSection = () => {
         <div>
           {data.map((item, index) => (
             <div className="vision-holder">
-              <p className="normal-1 font-medium">{item.header}</p>
+              <h4 className="normal-1 font-merge">{item.header}</h4>
               <p>{item.description}</p>
             </div>
           ))}

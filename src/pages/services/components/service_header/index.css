@@ -9,7 +9,7 @@
 }
 
 .service_header > div {
-  background-color: #00000080;
+  background-color: #00000095;
   height: 600px;
   width: 100%;
   display: flex;
@@ -18,7 +18,17 @@
 }
 .service_header h1 {
   width: 100%;
-  line-height: 45px;
+}
+.button-holder{
+  margin: 20px 0px 20px 0px;
+}
+.button-holder .primary-button{
+  background-color: var(--primary-orange);
+  color: var(--primary-black);
+}
+.button-holder .primary-button:hover{
+  background-color: #00000000;
+  color: var(--primary-orange);
 }
 
 @media screen and (min-width: 992px) {
@@ -36,7 +46,7 @@
     justify-content: center;
   }
   .service_header h1 {
-    width: 90%;
+    width: 100%;
     line-height: 65px;
     font-size: 48px;
   }

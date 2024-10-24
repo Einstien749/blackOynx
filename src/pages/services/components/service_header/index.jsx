@@ -10,13 +10,13 @@ const Service_Header = () => {
     <div className="service_header">
       <div>
         <div className="responsive">
-          <h1 className="big-bold head">
+          <h1 className="big-bold head font-extralarge">
             Our focused areas are Engineering & Project Advisory, Technical
             Consultant Sourcing, and Industry 4.0 (Digital Twin)
           </h1>
-          <div className="my-4">
+          <div className="button-holder">
             <button
-              className="primary-button bold"
+              className="primary-button"
               onClick={() => goToPage("/contactus")}
             >
               Contact us

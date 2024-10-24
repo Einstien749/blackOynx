@@ -1,6 +1,6 @@
 .contactuspage {
   background-color: var(--white);
-  min-height: 780px;
+  min-height: 680px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -17,15 +17,16 @@
   height: 550px;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 60px 60px 60px 60px 120px 60px;
+  grid-template-rows: 60px 60px 60px 60px 100px 60px;
   grid-row-gap: 15px;
   grid-column-gap: 0%;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.contactuspage > .responsive > p {
+.contactuspage > .responsive > h2 {
   width: 100%;
+  margin: 10px 0px 20px 0px;
 }
 .form-holder > input {
   border: 1px var(--secondary-black) solid;
@@ -33,16 +34,19 @@
   background-color: var(--white);
   outline: 0px;
   caret-color: var(--primary-black);
-  padding-left: 10px;
-  padding-right: 10px;
+  font-size: 8px;
   font-weight: 300;
-  font-size: 14px;
+  line-height: 12px;
+  padding: 8px 16px 8px 16px;
 }
 .form-holder > button {
-  font-size: 20px;
   border: 0px;
   background-color: var(--secondary-black);
   color: var(--white);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
 }
 .form-holder > button:hover {
   background-color: var(--white);
@@ -55,10 +59,10 @@
   border-top: 0px;
   outline: 0px;
   caret-color: var(--primary-black);
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 8px 16px 8px 16px;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 8px;
+  line-height: 12px;
 }
 
 @media screen and (min-width: 992px) {
@@ -82,14 +86,15 @@
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: 100px 100px 300px 100px;
-    grid-row-gap: 25px;
+    grid-row-gap: 20px;
     grid-column-gap: 10%;
     width: 60%;
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .contactuspage > .responsive > p {
+  .contactuspage > .responsive > h2 {
     width: 40%;
+    margin: 0px;
   }
   .form-holder > input {
     border: 1px var(--secondary-black) solid;
@@ -97,16 +102,20 @@
     background-color: var(--white);
     outline: 0px;
     caret-color: var(--primary-black);
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 8px 16px 8px 16px;
     font-weight: 300;
     font-size: 16px;
+    font-family: Poppins;
+    line-height: 24px;
   }
   .form-holder > button {
-    font-size: 30px;
     border: 0px;
     background-color: var(--secondary-black);
     color: var(--white);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
   }
   .form-holder > button:hover {
     background-color: var(--white);
@@ -121,9 +130,9 @@
     border-top: 0px;
     outline: 0px;
     caret-color: var(--primary-black);
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 8px 16px 8px 16px;
     font-weight: 300;
     font-size: 16px;
+    line-height: 24px;
   }
 }
