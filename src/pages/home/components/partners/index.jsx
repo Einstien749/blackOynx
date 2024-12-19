@@ -6,7 +6,7 @@ const PartnersSection = () => {
     <div className="partnersection">
       <div className="responsive">
         <div className="partner-holder">
-          <h2 className="bold font-large">Our Strategic Partners <span className="mob">& Clients</span></h2>
+          <h2 className="bold font-large">Our Strategic Partners & Clients</h2>
           <div>
             <div>
               <img src={Logo} />
