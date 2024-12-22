@@ -2,7 +2,7 @@ import "./index.css";
 import Logo from "../../../../assets/images/onyx_logo.svg";
 import NexusLogo from "../../../../assets/images/nexusLogo.png";
 import MaxserveLogo from "../../../../assets/images/MaxserveLogo.png";
-import HommastonLogo from "../../../../assets/images/hommastonLogo.png";
+import HommastonLogo from "../../../../assets/images/hommastonlogo.png";
 import BengineUniversalLogo from "../../../../assets/images/bengineUniversalLogo.jpg";
 import VidyaTechLogo from "../../../../assets/images/VidyaTechLogo.png";
 
