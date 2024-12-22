@@ -40,25 +40,14 @@ const Provided_Services = () => {
                 the virtual representation. Therefore, it delivers a constant
                 flow of data and information, which are used to predict,
                 simulate and give insights for the manager of the industrial
-                plant.
-              </p>
-              <p>
-                Vidya solutions are designed to optimize asset integrity
+                plant. Vidya solutions are designed to optimize asset integrity
                 activities through real-time operational data and online control
-                over your industrial plant.
-              </p>
-              <p>
-                Vidya is committed to employ digital solutions to enhance asset
-                integrity management for industrial plants to achieve a new
-                digital era.
-              </p>
-              <p>
-                Black Onyx is the Sale Representative of Vidya Technology in
-                Nigeria.
-              </p>
-              <p>
-                For more information on the full services and products, please
-                visit https://www.vidyatec.com
+                over your industrial plant. Vidya is committed to employ digital
+                solutions to enhance asset integrity management for industrial
+                plants to achieve a new digital era. Black Onyx is the Sale
+                Representative of Vidya Technology in Nigeria. For more
+                information on the full services and products, please visit
+                https://www.vidyatec.com
               </p>
             </div>
             <div>
@@ -78,11 +67,10 @@ const Provided_Services = () => {
                 identify the right resources for various discipline engineering
                 roles in the upstream, mid-stream and downstream sectors, for
                 contract purpose.
-              </p>
-              <p>
                 At Black Onyx, our clients trust us to proffer solutions
-                tailored to suit their specific needs
+                tailored to suit their specific needs.
               </p>
+              
             </div>
             <div>
               <img src={OilPipeline} />

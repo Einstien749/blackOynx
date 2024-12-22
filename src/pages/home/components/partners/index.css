@@ -50,6 +50,13 @@
     object-fit: contain;
 }
 
+.partner-holder > div > div:nth-child(1) > img:nth-child(4){
+    display: none;
+}
+.partner-holder > div > div:nth-child(1) > img:nth-child(5){
+    display: none;
+}
+
 @media screen and (max-width: 420px) {
     .partner-holder > div > div:nth-child(1){
         width: 80%;
@@ -107,17 +114,34 @@
         height: 105px;
     }
     .partner-holder > div > div:nth-child(1){
-        width: 70%;
+        width: 80%;
     }
     .partner-holder > div > div:nth-child(2){
         display: none;
     }
     .partner-holder > div img{
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         object-fit: contain;
     }
     .mob{
         display: none;
+    }
+    .partner-holder > div > div:nth-child(1) > img:nth-child(4){
+        display: block;
+    }
+    .partner-holder > div > div:nth-child(1) > img:nth-child(5){
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1300px ) and (max-width: 1600px ) {
+    .partner-holder > div > div:nth-child(1){
+        width: 90%;
+    }
+}
+@media screen and (min-width: 993px ) and (max-width: 1300px ) {
+    .partner-holder > div > div:nth-child(1){
+        width: 95%;
     }
 }

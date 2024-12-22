@@ -31,7 +31,8 @@ function Footer() {
               <p onClick={() => goTo("/contactus")}>Contact Us</p>
             </div>
             <div className="light">
-              <p>3891 Ranchview Dr. Richardson, California 62639</p>
+              <p>Block B Suite, Eko Courts 274 -278 Kofo Abayomi Street, Victoria Island , Lagos</p>
+              <p>6a Embu Street, Wuse 2, Abuja</p>
               <p>(209) 555-0104</p>
               <p>testing@testmail.com</p>
             </div>

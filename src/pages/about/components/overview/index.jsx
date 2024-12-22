@@ -35,7 +35,7 @@ const OverviewSection = () => {
             </p>
             <p>
               BLACK ONYX ENERGY is motivated to gain reputation for safe,
-              on-time on-budget, high-quality work; a reputation that is
+              on-time on-budget, high quality work; a reputation that is
               embedded in our culture.
             </p>
             <p>

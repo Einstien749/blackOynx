@@ -51,6 +51,7 @@
   font-size: 8px;
   font-weight: 300;
   line-height: 12px;
+  text-align: justify;
 }
 
 @media screen and (min-width: 992px) {

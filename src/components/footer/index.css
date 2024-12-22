@@ -11,13 +11,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 800px;
+  min-height: 900px;
 }
 .footer-wrapper > div {
   width: 99%;
   border-right: 0.01px var(--white) solid;
   border-bottom: 0.01px var(--white) solid;
-  height: 300px;
+  height: 350px;
 }
 .img-holder {
   display: flex;
@@ -127,7 +127,7 @@
 
 @media screen and (min-width: 992px) {
   .footer {
-    min-height: 500px;
+    min-height: 600px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -135,12 +135,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 300px;
+    min-height: 400px;
   }
   .footer-wrapper > div {
     width: 33.333333333333333333%;
     border-right: 0.01px var(--white) solid;
     border-bottom: 0.01px var(--white) solid;
+    min-height: 400px;
   }
   .img-holder {
     display: flex;

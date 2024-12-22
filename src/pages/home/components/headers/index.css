@@ -112,8 +112,8 @@
 
   .headers .responsive > p:nth-child(2) {
     width: 70%;
-    font-size: 24px;
-    line-height: 42px;
+    font-size: 20px;
+    line-height: 30px;
     font-weight: 500;
   }
 }

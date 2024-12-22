@@ -59,7 +59,7 @@
   border-top: 0px;
   outline: 0px;
   caret-color: var(--primary-black);
-  padding-left: 8px 16px 8px 16px;
+  padding: 8px 16px 8px 16px;
   font-weight: 300;
   font-size: 8px;
   line-height: 12px;

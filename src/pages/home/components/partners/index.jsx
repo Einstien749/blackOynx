@@ -1,5 +1,10 @@
 import "./index.css";
 import Logo from "../../../../assets/images/onyx_logo.svg";
+import NexusLogo from "../../../../assets/images/nexusLogo.png";
+import MaxserveLogo from "../../../../assets/images/MaxserveLogo.png";
+import HommastonLogo from "../../../../assets/images/hommastonLogo.png";
+import BengineUniversalLogo from "../../../../assets/images/bengineUniversalLogo.jpg";
+import VidyaTechLogo from "../../../../assets/images/VidyaTechLogo.png";
 
 const PartnersSection = () => {
   return (
@@ -9,13 +14,15 @@ const PartnersSection = () => {
           <h2 className="bold font-large">Our Strategic Partners & Clients</h2>
           <div>
             <div>
-              <img src={Logo} />
-              <img src={Logo} />
-              <img src={Logo} />
+              <img src={NexusLogo} />
+              <img src={MaxserveLogo} />
+              <img src={VidyaTechLogo} />
+              <img src={BengineUniversalLogo} />
+              <img src={HommastonLogo} />
             </div>
             <div>
-              <img src={Logo} />
-              <img src={Logo} />
+              <img src={BengineUniversalLogo} />
+              <img src={HommastonLogo} />
             </div>
           </div>
         </div>
