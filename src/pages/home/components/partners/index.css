@@ -1,7 +1,7 @@
 .partnersection {
     background-color: var(--primary-black);
     color: var(--white);
-    min-height: 440px;
+    min-height: 300px;
     display: flex;
     align-items: center;
 }
@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
 }
 .partner-holder > h2{
     width: 100%;
@@ -23,56 +23,32 @@
     text-align: center;
 }
 .partner-holder > div{
-    min-height: 220px;
+    min-height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-.partner-holder > div > div:nth-child(1){
+/*.partner-holder > div > div:nth-child(1){
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 408px;
+    width: 80%;
     height: 105px;
-}
-.partner-holder > div > div:nth-child(2){
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 204px;
-    height: 105px;
-}
+    margin-left: 10%;
+}*/
+
 .partner-holder > div img{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
 }
 
-.partner-holder > div > div:nth-child(1) > img:nth-child(4){
-    display: none;
-}
-.partner-holder > div > div:nth-child(1) > img:nth-child(5){
-    display: none;
-}
+.swiper-container-free-mode > .swiper-wrapper{
+    transition-timing-function : linear;
+  }
 
-@media screen and (max-width: 420px) {
-    .partner-holder > div > div:nth-child(1){
-        width: 80%;
-    }
-    .partner-holder > div > div:nth-child(2){
-        width: 60%;
-    }
-}
-@media screen and (max-width: 350px) {
-    .partner-holder > div > div:nth-child(1){
-        width: 100%;
-    }
-    .partner-holder > div > div:nth-child(2){
-        width: 75%;
-    }
-}
 
 @media screen and (min-width: 992px) {
     .partnersection {
@@ -91,7 +67,7 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        min-height: 120px;
+        min-height: 170px;
     }
     .partner-holder > h2{
         width: 50%;
@@ -104,44 +80,34 @@
         justify-content: center;
         align-items: center;
         width: 50%;
-        height: 105px;
+        height: 150px;
     }
     .partner-holder > div > div{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 50%;
-        height: 105px;
+        height: 150px;
     }
     .partner-holder > div > div:nth-child(1){
         width: 80%;
     }
-    .partner-holder > div > div:nth-child(2){
-        display: none;
-    }
+
     .partner-holder > div img{
-        width: 90px;
-        height: 90px;
+        width: 150px;
+        height: 80%;
         object-fit: contain;
     }
     .mob{
         display: none;
     }
-    .partner-holder > div > div:nth-child(1) > img:nth-child(4){
-        display: block;
-    }
-    .partner-holder > div > div:nth-child(1) > img:nth-child(5){
-        display: block;
-    }
+
 }
 
-@media screen and (min-width: 1300px ) and (max-width: 1600px ) {
-    .partner-holder > div > div:nth-child(1){
-        width: 90%;
-    }
-}
-@media screen and (min-width: 993px ) and (max-width: 1300px ) {
-    .partner-holder > div > div:nth-child(1){
-        width: 95%;
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .partner-holder > div img{
+        width: 100px;
+        height: 100%;
+        object-fit: contain;
     }
 }
